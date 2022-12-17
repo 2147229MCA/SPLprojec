@@ -29,7 +29,7 @@ DEBUG = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-3-87-160-68.compute-1.amazonaws.com']
 
 
 # Application definition
