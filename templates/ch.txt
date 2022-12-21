@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: blue;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #32CD32;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7FFF00;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Blog Name</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>You can Enter Main Title Here!</h2>
+      <h5>You can Enter Title Description Along with Date Time!</h5>
+      <div class="fakeimg" style="height:200px;">You can Upload Custom Image!</div>
+      <p>Hello Author!</p>
+      <p>Welcome to Our Blog Author is a blog that shares about the latest technology, gadgets and other related information. We will be sharing articles on various topics such as computers, mobile phones, photography and many more. All of these articles are written by our team members who have been working in this field for years now. You can also find out some useful tips from them regarding computer hardware and software maintenance. You can type in the core contents of your blog here!</p>
+    </div>
+    <div class="card">
+      <h2>You can Enter Main Title Here!</h2>
+      <h5>You can Enter Title Description Along with Date Time!</h5>
+      <div class="fakeimg" style="height:200px;">You can Upload Custom Image!</div>
+      <p>Hello Author!</p>
+      <p>Welcome to Our Blog Author is a blog that shares about the latest technology, gadgets and other related information. We will be sharing articles on various topics such as computers, mobile phones, photography and many more. All of these articles are written by our team members who have been working in this field for years now. You can also find out some useful tips from them regarding computer hardware and software maintenance. You can type in the core contents of your blog here!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About our Main Content- Science Fiction!</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>What is Science Fiction? It's a genre of fiction that explores the possibilities and consequences of scientific discoveries, technological advances or social changes. We've seen some great examples of this recently in movies like Gravity and Interstellar, but there have been many others throughout history. In fact, it was science fiction that brought us the internet!
+
+Science Fiction has always been part of our culture; we just didn't call it "science fiction" back then. The first recorded use of the term dates to 1845 when William Gibson published his novel A Novel without a Hero: Or, Makers of Romance. He called it "fantastic romance</p>
+    </div>
+    <div class="card">
+      <h3>Our Popular Posts- Will be shown here so Work Hard!</h3>
+      <div class="fakeimg">Interstellar</div><br>
+      <div class="fakeimg">Avatar</div><br>
+      <div class="fakeimg">Inception</div>
+    </div>
+    <div class="card">
+      <h3>Follow the RUles!- Anti Plagiarism Mandate!</h3>
+      <p> I don't think it's a matter of being angry. I just think that if you are going to be in the business of writing, then you need to know what is plagiarism and how to avoid it. It is not something that can be ignored or swept under the rug, and it needs to be addressed head on.
+
+What do you mean by "it"?
+
+Plagiarism is when someone takes another person’s work as his own and presents it as their own work without giving credit where credit is due. So Dont Plagiarise Content and Land Yourself in Trouble!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
